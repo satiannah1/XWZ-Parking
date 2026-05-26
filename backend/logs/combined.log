@@ -189,3 +189,73 @@
 2026-04-27 11:24:43 [INFO]: ::1 - - [27/Apr/2026:09:24:43 +0000] "GET /api/entries?status=parked&limit=5 HTTP/1.1" 200 1011 "http://localhost:3000/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 2026-04-27 11:24:43 [INFO]: ::1 - - [27/Apr/2026:09:24:43 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 304 - "http://localhost:3000/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 2026-04-27 11:24:43 [INFO]: ::1 - - [27/Apr/2026:09:24:43 +0000] "GET /api/entries?status=parked&limit=5 HTTP/1.1" 304 - "http://localhost:3000/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+2026-05-26 12:04:44 [INFO]: Server running on port 5000
+2026-05-26 12:04:44 [INFO]: Swagger docs: http://localhost:5000/api-docs
+2026-05-26 12:04:44 [INFO]: MongoDB Connected: localhost
+2026-05-26 12:04:44 [INFO]: Database: parking_system
+2026-05-26 12:06:55 [INFO]: New user registered: mutoni@gmail.com (attendant)
+2026-05-26 12:06:55 [INFO]: ::1 - - [26/May/2026:10:06:55 +0000] "POST /api/auth/register HTTP/1.1" 201 411 "http://localhost:3000/register" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:06:55 [INFO]: ::1 - - [26/May/2026:10:06:55 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 200 577 "http://localhost:3000/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:06:55 [INFO]: ::1 - - [26/May/2026:10:06:55 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 304 - "http://localhost:3000/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:06:55 [INFO]: ::1 - - [26/May/2026:10:06:55 +0000] "GET /api/entries?status=parked&limit=5 HTTP/1.1" 200 1049 "http://localhost:3000/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:06:55 [INFO]: ::1 - - [26/May/2026:10:06:55 +0000] "GET /api/entries?status=parked&limit=5 HTTP/1.1" 304 - "http://localhost:3000/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:07:08 [INFO]: ::1 - - [26/May/2026:10:07:08 +0000] "GET /api/parkings?page=1&limit=10 HTTP/1.1" 200 576 "http://localhost:3000/parkings" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:07:08 [INFO]: ::1 - - [26/May/2026:10:07:08 +0000] "GET /api/parkings?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/parkings" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:07:13 [INFO]: ::1 - - [26/May/2026:10:07:13 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:07:13 [INFO]: ::1 - - [26/May/2026:10:07:13 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 200 3126 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:07:13 [INFO]: ::1 - - [26/May/2026:10:07:13 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:07:13 [INFO]: ::1 - - [26/May/2026:10:07:13 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:07:37 [INFO]: Car entered: RAB 456 at PKN002
+2026-05-26 12:07:37 [INFO]: ::1 - - [26/May/2026:10:07:37 +0000] "POST /api/entries HTTP/1.1" 201 735 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:07:37 [INFO]: ::1 - - [26/May/2026:10:07:37 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 200 3638 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:07:41 [ERROR]: Failed to send ticket email to angellaninsiima22@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4904561f682sm335778955e9.13 - gsmtp
+2026-05-26 12:10:14 [INFO]: Car exited: RAB 456 from PKN002, charged: 438.67
+2026-05-26 12:10:14 [INFO]: ::1 - - [26/May/2026:10:10:14 +0000] "PUT /api/entries/6a1570e8a0038608f17cc5b9/exit HTTP/1.1" 200 970 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:10:15 [INFO]: ::1 - - [26/May/2026:10:10:15 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 200 3665 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 12:10:27 [ERROR]: Failed to send bill email to angellaninsiima22@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-490452765f5sm325480035e9.5 - gsmtp
+2026-05-26 13:34:47 [INFO]: Server running on port 5000
+2026-05-26 13:34:47 [INFO]: Swagger docs: http://localhost:5000/api-docs
+2026-05-26 13:34:47 [INFO]: MongoDB Connected: localhost
+2026-05-26 13:34:47 [INFO]: Database: parking_system
+2026-05-26 13:34:52 [INFO]: ::1 - - [26/May/2026:11:34:52 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 200 577 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:34:52 [INFO]: ::1 - - [26/May/2026:11:34:52 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 200 3665 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:34:52 [INFO]: ::1 - - [26/May/2026:11:34:52 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:34:52 [INFO]: ::1 - - [26/May/2026:11:34:52 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:35:15 [INFO]: Car entered: RAB 678 at PKG002
+2026-05-26 13:35:15 [INFO]: ::1 - - [26/May/2026:11:35:15 +0000] "POST /api/entries HTTP/1.1" 201 735 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:35:16 [INFO]: ::1 - - [26/May/2026:11:35:16 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 200 4178 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:35:21 [ERROR]: Failed to send ticket email to angellaninsiima22@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-45eb6d5caeesm35959608f8f.29 - gsmtp
+2026-05-26 13:42:27 [INFO]: ::1 - - [26/May/2026:11:42:27 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 200 577 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:42:27 [INFO]: ::1 - - [26/May/2026:11:42:27 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:42:27 [INFO]: ::1 - - [26/May/2026:11:42:27 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:42:27 [INFO]: ::1 - - [26/May/2026:11:42:27 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:42:32 [INFO]: Car exited: RAB 678 from PKG002, charged: 606.54
+2026-05-26 13:42:32 [INFO]: ::1 - - [26/May/2026:11:42:32 +0000] "PUT /api/entries/6a158573261af7250009b837/exit HTTP/1.1" 200 969 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:42:32 [INFO]: ::1 - - [26/May/2026:11:42:32 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 200 4205 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:42:35 [ERROR]: Failed to send bill email to angellaninsiima22@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-45eb6bc5479sm37165593f8f.0 - gsmtp
+2026-05-26 13:43:41 [INFO]: Server running on port 5000
+2026-05-26 13:43:41 [INFO]: Swagger docs: http://localhost:5000/api-docs
+2026-05-26 13:43:41 [INFO]: MongoDB Connected: localhost
+2026-05-26 13:43:41 [INFO]: Database: parking_system
+2026-05-26 13:44:48 [INFO]: Server running on port 5000
+2026-05-26 13:44:48 [INFO]: Swagger docs: http://localhost:5000/api-docs
+2026-05-26 13:44:48 [INFO]: MongoDB Connected: localhost
+2026-05-26 13:44:48 [INFO]: Database: parking_system
+2026-05-26 13:45:10 [INFO]: ::1 - - [26/May/2026:11:45:10 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 200 577 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:10 [INFO]: ::1 - - [26/May/2026:11:45:10 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:10 [INFO]: ::1 - - [26/May/2026:11:45:10 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:10 [INFO]: ::1 - - [26/May/2026:11:45:10 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:16 [INFO]: ::1 - - [26/May/2026:11:45:16 +0000] "GET /api/parkings?page=1&limit=10 HTTP/1.1" 200 576 "http://localhost:3000/parkings" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:16 [INFO]: ::1 - - [26/May/2026:11:45:16 +0000] "GET /api/parkings?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/parkings" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:19 [INFO]: ::1 - - [26/May/2026:11:45:19 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:19 [INFO]: ::1 - - [26/May/2026:11:45:19 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:19 [INFO]: ::1 - - [26/May/2026:11:45:19 +0000] "GET /api/parkings?limit=100 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:19 [INFO]: ::1 - - [26/May/2026:11:45:19 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:34 [INFO]: Car entered: RAB 123 at PKN002
+2026-05-26 13:45:34 [INFO]: ::1 - - [26/May/2026:11:45:34 +0000] "POST /api/entries HTTP/1.1" 201 735 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:34 [INFO]: ::1 - - [26/May/2026:11:45:34 +0000] "GET /api/entries?page=1&limit=10 HTTP/1.1" 200 4717 "http://localhost:3000/entries" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-26 13:45:41 [INFO]: Ticket email sent to angellaninsiima22@gmail.com

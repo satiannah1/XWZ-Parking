@@ -3,3 +3,11 @@
 2026-04-27 08:09:51 [ERROR]: Auth middleware error: invalid signature
 2026-04-27 08:09:51 [ERROR]: Auth middleware error: invalid signature
 2026-04-27 10:58:27 [ERROR]: E11000 duplicate key error collection: parking_system.parkings index: code_1 dup key: { code: "PKG002" } - POST /api/parkings
+2026-05-26 12:07:41 [ERROR]: Failed to send ticket email to angellaninsiima22@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4904561f682sm335778955e9.13 - gsmtp
+2026-05-26 12:10:27 [ERROR]: Failed to send bill email to angellaninsiima22@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-490452765f5sm325480035e9.5 - gsmtp
+2026-05-26 13:35:21 [ERROR]: Failed to send ticket email to angellaninsiima22@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-45eb6d5caeesm35959608f8f.29 - gsmtp
+2026-05-26 13:42:35 [ERROR]: Failed to send bill email to angellaninsiima22@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-45eb6bc5479sm37165593f8f.0 - gsmtp
